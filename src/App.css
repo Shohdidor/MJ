@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap');
+
+.Glav2{
+    background-image: url("src/assets/image/Без названия (58).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+  
+  .video-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .styled-video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+.Glav3{
+    background-image: url("src/assets/image/Без названия (60).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300vh;
+}
+.Glav{
+    background-image: url("src/assets/image/Recycling Paper Background - Free photo on Pixabay.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+.FirstText {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.DragonWarior {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.instagram-reels-container {
+    max-width: 500px;
+    overflow: hidden;
+}
+
+
+
+
+/* App.css */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate {
+  animation: fadeIn 2s ease-in;
+}
